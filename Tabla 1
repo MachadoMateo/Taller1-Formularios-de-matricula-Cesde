@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" style="width: 60%;"
+    <tr>
+        <th rowspan="3">day</th>
+        <th colspan="4">Seminar</th>
+    </tr>
+    <tr>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Begin</th>
+        <th>End</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8:00 a.m</td>
+        <td rowspan="2">5:00 p.m</td>
+        <th>Introduccion to xml</th>
+    </tr>
+    <tr>
+        <th>Validity DTD and Relax NG</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Tuesday</td>
+        <td>8:00 a.m</td>
+        <td>11:00 a.m</td>
+        <th rowspan="2">Xpath</th>
+    </tr>
+    <tr>
+        <td>11:00 a.m</td>
+        <td>2:00 p.m</td>
+    </tr>
+    <tr>
+        <td>2:00 p.m</td>
+        <td>5:00 p.m </td>
+        <th>XSL Transformation</th>
+    </tr>
+    <tr>
+        <td>Wednesday</td>
+        <td>8:00 a.m</td>
+        <td>12:00 p.m</td>
+        <th>XSL Formatting Object</th>
+    </tr>
+</table>
+</body>
+</html>
